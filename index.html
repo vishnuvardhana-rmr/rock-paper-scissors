@@ -94,21 +94,21 @@
         playGame('rock'); 
       " class="button-move">
 
-      <img src="rock-emoji.png" class="move">
+      <img src="images/rock-emoji.png" class="move">
       </button>
 
       <button onclick="
         playGame('paper');   
       " class="button-move">
 
-      <img src="paper-emoji.png" class="move">
+      <img src="images/paper-emoji.png" class="move">
       </button>
 
       <button onclick="    
       playGame('scissors');
       " class="button-move">
 
-      <img src="scissors-emoji.png" class="move">
+      <img src="images/scissors-emoji.png" class="move">
       </button>
 
       <div class="div-result">
@@ -193,8 +193,8 @@
           document.querySelector('.js-result').innerHTML = `${result}`;
 
           document.querySelector('.js-moves').innerHTML = `You 
-        <img src="${playerMove}-emoji.png" class="move">
-        <img src="${computerMove}-emoji.png" class="move"> Computer`;
+        <img src="images/${playerMove}-emoji.png" class="move">
+        <img src="images/${computerMove}-emoji.png" class="move"> Computer`;
 
           updateScoreElement ();
           
